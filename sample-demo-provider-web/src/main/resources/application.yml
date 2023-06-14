@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: rpc-spring-boot-starter-test-provider
+
+rpc:
+  server:
+    host: 127.0.0.1
+    port: 6379
+
+logging:
+  level:
+    root: info # 设置根日志级别为 info，即只输出 info 级别及以上的日志
